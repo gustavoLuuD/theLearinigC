@@ -37,7 +37,7 @@ void Draw()
       if(j == 0 || j == width)
         cout << "#";
       else if(i == y && j == x)
-        cout << "S";
+        cout << "O";
       else if(i == fruitY && j == fruitX)
         cout << "F";
       else{
@@ -45,7 +45,7 @@ void Draw()
         for(int k = 0; k < nTail; k++){
           if(tailX[k] == j && tailY[k] == i)
           {
-            cout << "s";
+            cout << "o";
             print = true;
           }
         }

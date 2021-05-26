@@ -9,6 +9,6 @@ this is another way to  comment
 
 int main(void) {
   printf("\t\aHello World\n");
-  printf("here goes nothing");
+  printf("Here's a number %40d", 20);
   return 0;
 }
